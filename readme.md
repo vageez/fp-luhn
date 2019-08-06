@@ -31,4 +31,6 @@ import luhn from 'fp-luhn'
 
 luhn(4916737743057301) // true
 
+luhn('4916737743057301') // true
+
 ```
