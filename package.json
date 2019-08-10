@@ -7,12 +7,22 @@
     "test": "jest"
   },
   "keywords": [
-    "Credit",
-    "Card",
-    "Checksum",
-    "Validation"
+    "luhn",
+    "credit",
+    "cards",
+    "checksum",
+    "validation",
+    "fp"
   ],
   "author": "vageez <avagenas14@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vageez/fp-luhn.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vageez/fp-luhn/issues"
+  },
+  "homepage": "https://github.com/vageez/fp-luhn",
   "license": "apache-2.0",
   "devDependencies": {
     "jest": "^24.8.0"
