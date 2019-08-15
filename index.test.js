@@ -1,4 +1,4 @@
-const luhn = require('./index');
+const luhn = require('./src/');
 
 /** Valid Numbers */
 

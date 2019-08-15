@@ -1,11 +1,11 @@
 {
   "name": "fp-luhn",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Functional Luhn Algorithm",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "jest",
-    "build": "minify ./src/index.js -d ."
+    "build": "npx babel src -d dist"
   },
   "keywords": [
     "luhn",
@@ -26,11 +26,9 @@
   "homepage": "https://github.com/vageez/fp-luhn",
   "license": "Apache-2.0",
   "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "babel-preset-minify": "^0.5.0",
     "jest": "^24.8.0"
-  },
-  "jest": {
-    "transform": {
-      "^.+\\.[jt]sx?$": "<rootDir>/node_modules/babel-jest"
-    }
   }
 }
