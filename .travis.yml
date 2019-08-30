@@ -1,8 +1,0 @@
-language: node_js
-node_js:
-- '11'
-
-deploy:
-  provider: npm
-  email: "avagenas14@gmail.com"
-  api_key: NPM_ACCESS_TOKEN
