@@ -24,7 +24,7 @@ npm i fp-luhn
 
 ## Usage
 
-> Accepts either a number or numeric string.
+> Accepts a numeric string. Eg: '4111111111111111'
 
 ```
 import luhn from 'fp-luhn'
